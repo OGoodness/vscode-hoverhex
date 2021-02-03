@@ -21,7 +21,13 @@ Added travis build badge
 
 Initial release
 
-
+```js
+let newthing = {}
+jsonString.map((v) => {
+ newthing[v.Offset] = { 'effect': v.Effect, 'comments': v.Comments, 'notes': v["Functional Explanations / Notes"]}
+})
+console.log(JSON.stringify(newthing, null, 2))
+```
 
 **Enjoy!**
 
